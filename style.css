@@ -1,0 +1,113 @@
+
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+#rating-box{
+    background-color: hsl(213, 19%, 18%);
+    max-width: 500px;
+    min-width: 300px;
+    margin: 15% auto;
+    border-radius: 5%;
+    padding: 5%;
+}
+
+#rating-box h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.6rem;
+}
+
+#rating-box p{
+    color: hsl(216, 12%, 54%);
+}
+
+.star{
+    padding: 2%;
+    border-radius: 45%;
+    background-color:hsl(213, 16%, 26%);
+
+}
+.star:hover{
+    padding: 2%;
+    border-radius: 45%;
+    background-color:hsl(217, 12%, 63%);
+
+}
+.survey{
+    display: none;
+}
+
+.rating{
+    color:hsl(216, 12%, 54%);
+    padding: 2.5%;
+    width: 23px;
+    text-align: center;
+    border-radius: 45%;
+    background-color:hsl(213, 16%, 26%);
+    display: inline-flex;
+    justify-content: center;
+    margin: 4%;
+}
+.rating:hover{
+    color:white;
+    padding: 2.5%;
+    width: 23px;
+    text-align: center;
+    border-radius: 45%;
+    background-color:hsl(217, 12%, 63%);
+    
+}
+.clicked{
+    color:white;
+    padding: 2.5%;
+    width: 23px;
+    text-align: center;
+    border-radius: 45%;
+    background-color:hsl(25, 97%, 53%); 
+}
+
+#ratings{
+    
+}
+#rating-box button{
+    width:90%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    margin-left: 5%;
+}
+#rating-box button:hover{
+    width:90%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    margin-left: 5%;
+}
+
+/* second screen */
+
+.thank-you{
+    display: none;
+ }
+
+ #thank-you{
+    text-align: center;
+    padding: 10%;
+ }
+
+ #thank-you p:first-of-type{
+    background-color: hsl(213, 16%, 26%);
+    color:hsl(25, 97%, 53%);
+    border-radius: 20px;
+    width:60%;
+    margin: 4% auto;
+ }
+
+ #thank-you h2{
+    color: white;
+ }
+
+ 
